@@ -10,7 +10,8 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/NadunBothota/AWS-Cloud-Management-CLI-Application.git'
+                git branch: 'main', url: 'https://github.com/NadunBothota/AWS-Cloud-Management-CLI-Application.git'
+
             }
         }
 
