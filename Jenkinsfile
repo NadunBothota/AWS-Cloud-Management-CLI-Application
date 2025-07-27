@@ -21,6 +21,13 @@ pipeline {
             }
         }
 
+        stage('Unit Test') {
+    steps {
+        echo 'Running unit tests...'
+        bat 'mvn test'
+    }
+}
+        
         stage('Archive Artifact') {
             steps {
                 archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
