@@ -1,3 +1,4 @@
+//CredentialManager.java
 package com.cloud;
 
 import software.amazon.awssdk.auth.credentials.AwsBasicCredentials;
@@ -44,4 +45,5 @@ public class AwsCredentialManager {
         }
     }
 }
+
 
