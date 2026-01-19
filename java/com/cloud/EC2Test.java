@@ -1,3 +1,4 @@
+//EC2Test.java
 package com.cloud;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -11,4 +12,5 @@ public class EC2Test {
         return response;
     }
 }
+
 
