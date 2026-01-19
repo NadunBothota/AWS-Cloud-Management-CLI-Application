@@ -1,3 +1,5 @@
+//EC2 service.java
+
 package com.cloud;
 
 import software.amazon.awssdk.auth.credentials.AwsCredentialsProvider;
@@ -39,3 +41,4 @@ public class EC2Service {
         System.out.println("Instance stopped: " + instanceId);
     }
 }
+
