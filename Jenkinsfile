@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         MAVEN_HOME = tool 'Maven 3.9.11' 
-        JAVA_HOME = tool 'jdk-21'       // your installed JDK version
+        JAVA_HOME = tool 'jdk-21'  
         PATH = "${JAVA_HOME}/bin:${MAVEN_HOME}/bin:${env.PATH}"
     }
 
