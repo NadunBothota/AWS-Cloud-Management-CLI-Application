@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        MAVEN_HOME = tool 'Maven 3.9.11' // or your installed Maven version
+        MAVEN_HOME = tool 'Maven 3.9.11' 
         JAVA_HOME = tool 'jdk-21'       // your installed JDK version
         PATH = "${JAVA_HOME}/bin:${MAVEN_HOME}/bin:${env.PATH}"
     }
