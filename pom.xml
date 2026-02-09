@@ -17,7 +17,7 @@
             <type>pom</type>
             <scope>import</scope>
         </dependency>
-        <!-- AWS SDK for auth -->
+        
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>auth</artifactId>
