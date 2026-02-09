@@ -24,7 +24,7 @@
             <version>2.25.25</version>
         </dependency>
 
- 
+        <!-- AWS SDK for STS -->
         <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>sts</artifactId>
