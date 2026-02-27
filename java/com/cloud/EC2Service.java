@@ -62,12 +62,11 @@ public class EC2Service {
      */
     public void startInstance(String instanceId) {
 
-        // Build and send start request to AWS
         ec2.startInstances(StartInstancesRequest.builder()
                 .instanceIds(instanceId)
                 .build());
 
-        // Confirmation message
+        
         System.out.println("Instance started: " + instanceId);
     }
 
@@ -87,4 +86,5 @@ public class EC2Service {
         System.out.println("Instance stopped: " + instanceId);
     }
 }
+
 
