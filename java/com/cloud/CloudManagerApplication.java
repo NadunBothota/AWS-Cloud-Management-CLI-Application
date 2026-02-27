@@ -109,7 +109,7 @@ public class CloudManagerApplication {
      */
     private static void manageS3(Scanner scanner, S3Service s3Service) {
 
-        // S3 submenu loop
+      
         while (true) {
             System.out.println("\n--- S3 Management ---");
             System.out.println("1. List S3 Buckets");
@@ -119,7 +119,7 @@ public class CloudManagerApplication {
             System.out.print("Enter your choice: ");
 
             int s3choice = scanner.nextInt();
-            scanner.nextLine(); // Clear newline
+            scanner.nextLine(); 
 
             switch (s3choice) {
 
@@ -166,4 +166,5 @@ public class CloudManagerApplication {
         }
     }
 }
+
 
