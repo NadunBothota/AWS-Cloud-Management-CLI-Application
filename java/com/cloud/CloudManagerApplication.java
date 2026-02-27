@@ -20,10 +20,9 @@ public class CloudManagerApplication {
         EC2Service ec2Service = new EC2Service(credentialsProvider);
         S3Service s3Service = new S3Service(credentialsProvider);
 
-        // Scanner object to read user input
+        
         Scanner scanner = new Scanner(System.in);
 
-        // Main menu loop (runs until user chooses to exit)
         while (true) {
             System.out.println("\n=== AWS Service Manager ===");
             System.out.println("1. EC2 Service");
@@ -167,3 +166,4 @@ public class CloudManagerApplication {
         }
     }
 }
+
