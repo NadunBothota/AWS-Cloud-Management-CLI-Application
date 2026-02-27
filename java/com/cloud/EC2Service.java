@@ -12,8 +12,6 @@ import software.amazon.awssdk.services.ec2.model.*;
  * - Listing EC2 instances
  * - Starting an EC2 instance
  * - Stopping an EC2 instance
- *
- * It uses AWS SDK v2 to interact with Amazon EC2 service.
  */
 public class EC2Service {
 
@@ -89,3 +87,4 @@ public class EC2Service {
         System.out.println("Instance stopped: " + instanceId);
     }
 }
+
