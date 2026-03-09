@@ -13,8 +13,7 @@ import java.util.Scanner;
 
 /**
  * AwsCredentialManager handles:
- *  - Prompting the user to enter AWS credentials
- *  - Creating a credentials provider
+ *  - Prompting the user to enter AWS credential
  *  - Validating the credentials using AWS STS service
  */
 public class AwsCredentialManager {
@@ -85,3 +84,4 @@ public class AwsCredentialManager {
         }
     }
 }
+
