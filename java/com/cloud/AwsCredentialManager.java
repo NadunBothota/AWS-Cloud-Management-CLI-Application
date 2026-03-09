@@ -21,7 +21,6 @@ public class AwsCredentialManager {
     /**
      * Prompts the user to enter AWS Access Key and Secret Key.
      * Creates a credentials provider and validates it.
-     *
      * @return AwsCredentialsProvider if credentials are valid
      */
     public static AwsCredentialsProvider promptForCredentials() {
@@ -84,4 +83,5 @@ public class AwsCredentialManager {
         }
     }
 }
+
 
