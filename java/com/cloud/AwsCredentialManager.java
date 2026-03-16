@@ -63,7 +63,7 @@ public class AwsCredentialManager {
         try {
             // Build STS client using provided credentials
             StsClient stsClient = StsClient.builder()
-                    .region(Region.AP_SOUTH_1) // Asia Pacific (Mumbai) region
+                    .region(Region.AP_SOUTH_1)
                     .credentialsProvider(provider)
                     .build();
 
