@@ -1,4 +1,4 @@
-// AwsCredentialManager.java
+
 
 package com.cloud;
 
@@ -56,7 +56,7 @@ public class AwsCredentialManager {
     /**
      * Validates AWS credentials by calling AWS STS (Security Token Service).
      * If credentials are valid, STS returns caller identity.
-     * @param provider AWS credentials provider
+
      * @return true if credentials are valid, false otherwise
      */
     private static boolean validateCredentials(AwsCredentialsProvider provider) {
