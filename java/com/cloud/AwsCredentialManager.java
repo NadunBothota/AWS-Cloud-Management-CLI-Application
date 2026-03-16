@@ -67,7 +67,6 @@ public class AwsCredentialManager {
                     .credentialsProvider(provider)
                     .build();
 
-            // Call AWS STS to verify identity
             stsClient.getCallerIdentity(
                     GetCallerIdentityRequest.builder().build()
             );
