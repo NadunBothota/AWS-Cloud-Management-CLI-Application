@@ -46,7 +46,7 @@ public class AwsCredentialManager {
         // Validate credentials before returning
         if (!validateCredentials(provider)) {
             System.out.println(" Invalid credentials. Exiting.");
-            System.exit(1); // Stop application if credentials are invalid
+            System.exit(1); 
         }
 
         System.out.println("AWS Credentials validated.");
@@ -56,7 +56,6 @@ public class AwsCredentialManager {
     /**
      * Validates AWS credentials by calling AWS STS (Security Token Service).
      * If credentials are valid, STS returns caller identity.
-
      * @return true if credentials are valid, false otherwise
      */
     private static boolean validateCredentials(AwsCredentialsProvider provider) {
